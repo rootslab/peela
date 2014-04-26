@@ -57,14 +57,24 @@ Peela#stack : Array
  */
 Peela#push( [ Object obj1 [, Object obj2 .. ] ] ) : Number
 
-/* 
- * Evict one or multiple elements, if a number k was specified, it returns
- * an array of K elements, with K <= k. If k > size(), all elements
- * are returned.
+/*
+ * Concatenate an Array to the stack, optionally reversing it
+ * before the operation.
+ * It returns the current Peela instance.
  *
- * NOTE: #pop() a single element from the stack, does not return an Array,
- * but the element itself.
- * NOTE: For popping all elements you could do: Peela#pop( Infinity )
+ * NOTE: It accepts a single argument, that could be also
+ * a generic element.
+ */
+Peela#concat( [ Array array [, Boolean reverse ] ] ) : Peela
+
+/* 
+ * Evict one or multiple elements, if a number k was specified,
+ * it returns an array of K elements, with K <= k.
+ * If k > size(), all elements are returned.
+ *
+ * NOTE: #pop() a single element from the stack, it does not
+ * return an Array, but the element itself.
+ * NOTE: For popping all elements you could also do Peela#pop( Infinity )
  */
 Peela#pop( [ Number k ] ) : Array
 
