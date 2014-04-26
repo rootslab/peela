@@ -79,6 +79,13 @@ Peela#head( [ Number index ] ) : Object
 Peela#size() : Number
 
 /*
+ * Return the index of an element in the stack, optionally
+ * starting the search from an offset index.
+ * If element was not found, it returns -1.
+ */
+Peela#indexOf( Object el [, Number offset ] ) : Object
+
+/*
  * Empty the stack for default.
  * If bool is set to false, no action will be done.
  * It returns the number of elements evicted.
