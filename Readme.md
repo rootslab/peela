@@ -18,7 +18,7 @@ $ git clone git@github.com:rootslab/peela.git
 > __require__ 
 
 ```javascript
-var Peela  = require( 'peela' );
+var Peela = require( 'peela' );
 ```
 > See [examples](example/).
 
