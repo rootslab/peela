@@ -1,6 +1,6 @@
 {
   "name": "peela",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Peela, a tiny (LIFO) stack.",
   "homepage": "https://github.com/rootslab/peela",
   "private": false,
