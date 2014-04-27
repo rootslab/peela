@@ -58,12 +58,17 @@ Peela#stack : Array
 Peela#push( [ Object obj1 [, Object obj2 .. ] ] ) : Number
 
 /*
- * Concatenate an Array to the stack, optionally reversing it
+ * Concatenate an Array to the stack head, optionally reversing it
  * before the operation.
  * It returns the current Peela instance.
  *
  * NOTE: It accepts a single argument, that could be also
  * a generic element.
+ * NOTE: the action of reversing the array to concatenate, could be
+ * useful if you want to re-push ( previously popped ) K items into
+ * the stack, for example, try:
+ * var p = Peela( [ 0, 1, 2, 3, 4 ] );
+ * p.concat( p.pop( 3 ), true )
  */
 Peela#concat( [ Array array [, Boolean reverse ] ] ) : Peela
 
