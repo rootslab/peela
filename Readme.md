@@ -44,7 +44,7 @@ new Peela( [ Array elements ] )
 
 ```javascript
 // an array representing the stack
-Peela#stack : Array
+Peela.stack : Array
 ```
 
 ###Methods
