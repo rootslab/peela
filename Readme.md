@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm-dl/peela.png)](https://nodei.co/npm/peela/)
 
-> _Peela_, a tiny (LIFO) stack.
+> **_Peela_**, a tiny (LIFO) **Stack**.
 
 > If you need a fast (FIFO) __Queue__, try __[Train](https://github.com/rootslab/train)__.
 
