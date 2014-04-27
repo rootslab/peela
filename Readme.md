@@ -8,6 +8,8 @@
 
 > _Peela_, a tiny (LIFO) stack.
 
+> If you need a fast (FIFO) __Queue__, try __[Train](https://github.com/rootslab/train)__.
+
 ###Install
 
 ```bash
