@@ -70,7 +70,7 @@ for ( ; i <= p1.size(); ++i ) {
     }
 };
 
-log( '- check #indexOf() results with some arguments.' );
+log( '- check #indexOf() results with some arguments (%d tests).', 3 );
 
 assert.equal( p1.indexOf( 'blah' ), - 1 );
 assert.equal( p1.indexOf(), - 1 );
