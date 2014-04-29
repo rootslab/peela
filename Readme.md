@@ -91,6 +91,11 @@ Peela#pop( [ Number k ] ) : Array
 Peela#head( [ Number index ] ) : Object
 
 /*
+ * Get an element starting from the tail.
+ */
+Peela#tail( [ Number index ] ) : Object
+
+/*
  * Get the stack size.
  */
 Peela#size() : Number
