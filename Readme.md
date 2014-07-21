@@ -1,14 +1,24 @@
 ###Peela
-[![build status](https://secure.travis-ci.org/rootslab/peela.png?branch=master)](http://travis-ci.org/rootslab/peela) 
-[![NPM version](https://badge.fury.io/js/peela.png)](http://badge.fury.io/js/peela)
 
-[![NPM](https://nodei.co/npm/peela.png?downloads=true&stars=true)](https://nodei.co/npm/peela/)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/peela#mit-license)
 
-[![NPM](https://nodei.co/npm-dl/peela.png)](https://nodei.co/npm/peela/)
+[![NPM VERSION](http://img.shields.io/npm/v/peela.svg)](https://www.npmjs.org/package/peela)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/peela.svg)](http://travis-ci.org/rootslab/peela)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/peela.svg)](https://david-dm.org/rootslab/peela)
+
+[![NPM GRAPH1](https://nodei.co/npm-dl/peela.png)](https://nodei.co/npm/peela/)
+
+[![GITHUB tag](http://img.shields.io/github/tag/rootslab/peela.svg)](https://github.com/rootslab/peela/tags)
+[![ISSUES](http://img.shields.io/github/issues/rootslab/peela.svg)](https://github.com/rootslab/peela/issues)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/peela.svg)](http://npm-stat.com/charts.html?package=peela)
+
+[![NPM GRAPH2](https://nodei.co/npm/peela.png?downloads=true&stars=true)](https://nodei.co/npm/peela/)
+
 
 > **_Peela_**, a tiny (LIFO) **Stack**.
 
-> If you need a fast (FIFO) __Queue__, try __[Train](https://github.com/rootslab/train)__.
+> If you need a fast (FIFO) __Queue__, try __[peela](https://github.com/rootslab/peela)__.
 
 ###Install
 
