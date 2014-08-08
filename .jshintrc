@@ -33,10 +33,10 @@
 
     // Relaxing
     "asi"           : false,     // true: Tolerate Automatic Semicolon Insertion (no semicolons)
-    "boss"          : false,     // true: Tolerate assignments where comparisons would be expected
+    "boss"          : true,      // true: Tolerate assignments where comparisons would be expected
     "debug"         : false,     // true: Allow debugger statements e.g. browser breakpoints.
     "eqnull"        : false,     // true: Tolerate use of `== null`
-    // "es5"           : true,      // true: Allow ES5 syntax (ex: getters and setters)
+    // "es5"        : true,      // true: Allow ES5 syntax (ex: getters and setters)
     "esnext"        : true,      // true: Allow ES.next (ES6) syntax (ex: `const`)
     "moz"           : false,     // true: Allow Mozilla specific syntax (extends and overrides esnext features)
                                  // (ex: `for each`, multiple try/catch, function expression…)
@@ -45,12 +45,12 @@
     "funcscope"     : false,     // true: Tolerate defining variables inside control statements
     "globalstrict"  : false,     // true: Allow global "use strict" (also enables 'strict')
     "iterator"      : false,     // true: Tolerate using the `__iterator__` property
-    "lastsemic"     : false,     // true: Tolerate omitting a semicolon for the last statement of a 1-line block
+    "lastsemic"     : true,      // true: Tolerate omitting a semicolon for the last statement of a 1-line block
     "laxbreak"      : true,      // true: Tolerate possibly unsafe line breakings
     "laxcomma"      : true,      // true: Tolerate comma-first style coding
     "loopfunc"      : false,     // true: Tolerate functions being defined in loops
-    "multistr"      : false,     // true: Tolerate multi-line strings
-    "proto"         : false,     // true: Tolerate using the `__proto__` property
+    "multistr"      : true,      // true: Tolerate multi-line strings
+    "proto"         : true,      // true: Tolerate using the `__proto__` property
     "scripturl"     : false,     // true: Tolerate script-targeted URLs
     "shadow"        : false,     // true: Allows re-define variables later in code e.g. `var x=1; x=2;`
     "sub"           : false,     // true: Tolerate using `[]` notation when it can still be expressed in dot notation
