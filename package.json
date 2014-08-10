@@ -1,6 +1,6 @@
 {
   "name": "peela",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Peela, a tiny (LIFO) stack.",
   "homepage": "https://github.com/rootslab/peela",
   "private": false,
@@ -31,7 +31,7 @@
   "devDependencies": {},
   "main": "index",
   "engines": {
-    "node": ">=0.4.x"
+    "node": ">=0.8.x"
   },
   "scripts": {
     "test": "bash test/run.sh"

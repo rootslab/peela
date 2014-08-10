@@ -1,5 +1,8 @@
 ###Peela
 
+[![CODECLIMATE](https://codeclimate.com/github/rootslab/peela/badges/gpa.svg)](https://codeclimate.com/github/rootslab/peela)
+[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/peela/badges/coverage.svg)](https://codeclimate.com/github/rootslab/peela)
+
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/peela#mit-license)
 [![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
 [![NPM DOWNLOADS](http://img.shields.io/npm/dm/peela.svg)](http://npm-stat.com/charts.html?package=peela)
