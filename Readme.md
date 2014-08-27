@@ -54,7 +54,7 @@ new Peela( [ Array elements ] )
 ###Properties
 
 ```javascript
-// an array representing the stack
+// an array representing the stack.
 Peela.stack : Array
 ```
 
@@ -129,7 +129,6 @@ Peela#flush( [ Boolean bool ] ) : Number
 
 ------------------------------------------------------------------------
 
-
 ### MIT License
 
 > Copyright (c) 2014 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
@@ -152,3 +151,5 @@ Peela#flush( [ Boolean bool ] ) : Number
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![GA](https://ga-beacon.appspot.com/UA-53998692-1/peela/Readme?pixel)](https://github.com/igrigorik/ga-beacon)

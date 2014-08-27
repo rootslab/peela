@@ -11,6 +11,7 @@ var log = console.log
     , Peela = require( '../' )
     , p1 = Peela()
     , p2 = Peela()
+    , p3 = Peela( [ 'demo', 'stack' ] )
     , a = []
     , l = 16
     , i = l
@@ -74,4 +75,26 @@ log( '- check #indexOf() results with some arguments (%d tests).', 3 );
 
 assert.equal( p1.indexOf( 'blah' ), - 1 );
 assert.equal( p1.indexOf(), - 1 );
-assert.equal( p1.indexOf( 0, -4 ), p1.indexOf( 0, 4 ) )
+assert.equal( p1.indexOf( 0, -4 ), p1.indexOf( 0, 4 ) );
+
+log( '- check #tail result for all indexes.' );
+i = 0;
+for ( ; i < p1.size(); ++i ) assert.equal( i, p1.tail( i ) );
+
+log( '- check #head with a %d value, should return %d.', NaN, 0 );
+assert.equal( p1.head( 'notanumber' ), p1.head( 0 ) );
+
+log( '- check #tail with a %d value, should return %d.', NaN, 0 );
+assert.equal( p1.tail( 'notanumber' ), p1.tail( 0 ) );
+
+log( '- #flush stack with evict option set to %s.', false );
+assert.equal( p1.flush( false ), 0 );
+
+log( '- #flush stack (%d elements).', p1.size() );
+assert.equal( p1.size(), p1.flush(), util.inspect( p1 ) );
+
+log( '- check stack size, should be: %d.', 0 );
+assert.equal( p1.size(), 0 );
+
+log( '- check stack property for a Peela init with: %s.', [ 'demo', 'stack' ] );
+assert.deepEqual( p3.stack, [ 'demo', 'stack' ] );
