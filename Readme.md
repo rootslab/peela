@@ -21,7 +21,7 @@
 
 > **_Peela_**, a tiny (LIFO) **Stack**.
 
-> If you need a fast (FIFO) __Queue__, try __[peela](https://github.com/rootslab/peela)__.
+> If you need a fast (FIFO) __Queue__, try __[peela](https://github.com/rootslab/train)__.
 
 ###Install
 
