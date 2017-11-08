@@ -1,4 +1,4 @@
-###Peela
+### Peela
 
 [![NPM VERSION](http://img.shields.io/npm/v/peela.svg?style=flat)](https://www.npmjs.org/package/peela)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/peela)
@@ -15,15 +15,12 @@
 
 [![NPM GRAPH2](https://nodei.co/npm/peela.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/peela/)
 
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/peela/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/peela)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/peela/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/peela)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/peela/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/peela)
 
 > **_Peela_**, a tiny (LIFO) **Stack**.
 
 > If you need a fast (FIFO) __Queue__, try __[train](https://github.com/rootslab/train)__.
 
-###Install
+### Install
 
 ```bash
 $ npm install peela [-g]
@@ -37,13 +34,13 @@ var Peela = require( 'peela' );
 ```
 > See [examples](example/).
 
-###Run Tests
+### Run Tests
 
 ```bash
 $ cd peela/
 $ npm test
 ```
-###Constructor
+### Constructor
 
 > Create an instance, optionally with an Array of elements.
 
@@ -53,14 +50,14 @@ Peela( [ Array elements ] )
 new Peela( [ Array elements ] )
 ```
 
-###Properties
+### Properties
 
 ```javascript
 // an array representing the stack.
 Peela.stack : Array
 ```
 
-###Methods
+### Methods
 
 > Arguments within [ ] are optional.
 
@@ -131,9 +128,9 @@ Peela#flush( [ Boolean bool ] ) : Number
 
 ------------------------------------------------------------------------
 
-### MIT License
+###  MIT License
 
-> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
