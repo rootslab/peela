@@ -6,19 +6,20 @@
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/peela.svg?style=flat)](https://codeclimate.com/github/rootslab/peela)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/peela#mit-license)
 
+![NODE VERSION](https://img.shields.io/node/v/peela.svg)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/peela.svg?style=flat)](http://travis-ci.org/rootslab/peela)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/peela.svg?style=flat)](https://david-dm.org/rootslab/peela)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/peela.svg?style=flat)](https://david-dm.org/rootslab/peela#info=devDependencies)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/peela.svg?style=flat)](http://npm-stat.com/charts.html?package=peela)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/peela.png)](https://nodei.co/npm/peela/)
+[![NPM MONTHLY](http://img.shields.io/npm/dm/peela.svg?style=flat)](http://npm-stat.com/charts.html?package=peela)
+![NPM YEARLY](https://img.shields.io/npm/dy/peela.svg)
 
-[![NPM GRAPH2](https://nodei.co/npm/peela.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/peela/)
+[![NPM GRAPH1](https://nodei.co/npm/peela.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/peela/)
 
 
 > **_Peela_**, a tiny (LIFO) **Stack**.
 
-> If you need a fast (FIFO) __Queue__, try __[train](https://github.com/rootslab/train)__.
+> If you need a fast (FIFO) __Queue__, try __[Train](https://github.com/rootslab/train)__.
 
 ### Install
 
@@ -128,7 +129,7 @@ Peela#flush( [ Boolean bool ] ) : Number
 
 ------------------------------------------------------------------------
 
-###  MIT License
+### MIT License
 
 > Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
